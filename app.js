@@ -40,7 +40,7 @@ function villagerBruteBlogLink() {
 function websiteBlogLink() {
   document.querySelector("body").style.opacity = 0;
   setTimeout(function(){
-    window.location.replace("https://technictm.github.io/blog/websiteBlog/");
+    window.location.replace("https://technictm.github.io/websiteBlog/");
   }, 250);
 }
 
