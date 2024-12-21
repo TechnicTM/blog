@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+		<link rel="shortcut icon" type="image/webp" href="img/TechnicIconPng.webp">
+		<link rel="stylesheet" href="blog.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/ceab6117ab.js" crossorigin="anonymous"></script>
+		<title>Technic - Blog</title>
+	</head>
+	<body>
+		<section class="sect1" id="sect1">
+			<img src="img/vb1.webp" alt="" class="backimg">
+			<img src="img/fade.png" alt="" class="backimgfade">
+			<div class="topFade"></div>
+			<div class="nav-container">
+				<nav class="navbar">
+					<!--<h1 id="navbar-logo">TECHNIC<img class="textlogo" src="img/logotext.png"></h1>-->
+					<ul class="nav-menu">
+						<li><a class="nav-links homebtn" onclick="homeLink()">HOME</a></li>
+						<li><a class="nav-links glbtn" onclick="blogLink()">BLOG</a></li>
+						<li><a class="nav-links modbtn">MODS</a></li>
+					</ul>
+				</nav>
+			</div>
+            <div class="nav-containers"></div>
+            <div class="homesecinfo">
+			    <img src="img/TechnicBlog.webp" alt="logo" class="logotitle">
+			</div>
+            <div class="topspace"></div>
+			<ul class="ull">
+				<li class="list actives" data-filter="all">All</li>
+				<!-- <li class="list" data-filter="1">Announcements</li> -->
+				<li class="list" data-filter="2">Releases</li>
+				<li class="list" data-filter="3">Updates</li>
+			</ul>
+			<div class="blog-containner">
+				<div class="page1">
+					<div class="blog-card" data-item="2" onclick="websiteBlogLink()">
+						<div class="blog-img">
+							<img src="img/tBg.webp" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">Welcome To Technic Website!</p>
+							<p class="blog-info-txt">Greetings players! Welcome to the official website of Technic Team. We are so excited to release this website after lots of work on the design and on the coding to make it comfortable for all of you.</p>
+							<p class="blog-second-title"><span class="blog-type-r">Release</span> • Nov 28th, 2024</p>
+							<!-- <a class="blog-read-more" onclick="villagerBruteBlogLink()">Read More</a> -->
+						</div>
+					</div>
+					<div class="blog-card" data-item="2" onclick="villagerBruteBlogLink()">
+						<div class="blog-img">
+							<img src="img/vb1.webp" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">Villager Brute Release</p>
+							<p class="blog-info-txt">Greetings players! Today, we officially released our first mod Villager Brute! While working on a bigger and higher quality mods, we decided to release this VERY early version of the mod for now, while we work on the bigger release of this mod. While we work on Raid&Trade, we are working on our biggest mod we will probably make called 'Snow Update', so expect it to be released in the next few months to a year.</p>
+							<p class="blog-second-title"><span class="blog-type-r">Release</span> • Dec 21th, 2022</p>
+							<!-- <a class="blog-read-more" onclick="villagerBruteBlogLink()">Read More</a> -->
+						</div>
+					</div>
+					<!-- <div class="blog-card" data-item="1">
+						<div class="blog-img">
+							<img src="img/vbb.webp" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">Welcome To Technic Website!</p>
+							<p class="blog-info-txt">Technic is a <b>Minecraft: Java Edition</b> Modding team <br> that makes more updates to Minecraft. <br> Our goal is to give you the feeling of playing vanilla minecraft <br> but with new updates in the game.</p>
+							<p class="blog-second-title"><span class="blog-type-a">Announcements</span> - 5 July 2022</p>
+							<a class="blog-read-more" href="#Technic-Website" onclick="blogOne()">Read More</a>
+						</div>
+					</div> -->
+					<!--<div class="blog-card" data-item="2">
+						<div class="blog-img">
+							<img src="img/TB.png" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">It's Very Snowy Outside!</p>
+							<p class="blog-info-txt">TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
+							<p class="blog-second-title"><span class="blog-type-c">Community</span> - 5 July 2022</p>
+							<p class="blog-read-more">Read More</p>
+						</div>
+					</div>
+					<div class="blog-card" data-item="3">
+						<div class="blog-img">
+							<img src="img/TB.png" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">It's Very Snowy Outside!</p>
+							<p class="blog-info-txt">TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
+							<p class="blog-second-title"><span class="blog-type-u">Update</span> - 5 July 2022</p>
+							<p class="blog-read-more">Read More</p>
+						</div>
+					</div>-->
+				</div>
+				<!--<div class="page2 hide">
+					<div class="blog-card" data-item="1">
+						<div class="blog-img">
+							<img src="img/coolbg.png" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">Welcome To Technic Website!</p>
+							<p class="blog-info-txt">TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
+							<p class="blog-second-title"><span class="blog-type-a">Announcements</span> - 5 July 2022</p>
+							<p class="blog-read-more">Read More</p>
+						</div>
+					</div>
+					<div class="blog-card" data-item="2">
+						<div class="blog-img">
+							<img src="img/coolbg.png" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">It's Very Snowy Outside!</p>
+							<p class="blog-info-txt">TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
+							<p class="blog-second-title"><span class="blog-type-c">Community</span> - 5 July 2022</p>
+							<p class="blog-read-more">Read More</p>
+						</div>
+					</div>
+					<div class="blog-card" data-item="3">
+						<div class="blog-img">
+							<img src="img/coolbg.png" alt="Image">
+						</div>
+						<div class="blog-text">
+							<p class="blog-main-title">It's Very Snowy Outside!</p>
+							<p class="blog-info-txt">TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT</p>
+							<p class="blog-second-title"><span class="blog-type-u">Update</span> - 5 July 2022</p>
+							<p class="blog-read-more">Read More</p>
+						</div>
+					</div>
+				</div>-->
+			</div>
+			<!--<ul class="blog-pages">
+				<li class="pg page1btn activess" onclick="pageOne()">1</li>
+				<li class="pg page2btn" onclick="pageTwo()">2</li>
+			</ul>-->
+		</section>
+		<script>
+			let list = document.querySelectorAll('.list');
+			let itemBox = document.querySelectorAll('.blog-card');
+			
+			for(let i = 0; i<list.length; i++){
+			  list[i].addEventListener('click', function(){
+			    for(let j = 0; j<list.length; j++){
+				  list[j].classList.remove('actives');
+				}
+				this.classList.add('actives');
+				
+				let dataFilter = this.getAttribute('data-filter');
+				
+				for(let k = 0; k<itemBox.length; k++){
+				  itemBox[k].classList.remove('activese');
+				  itemBox[k].classList.add('hide');
+				
+				  if(itemBox[k].getAttribute('data-item') == dataFilter || dataFilter == "all"){
+				    itemBox[k].classList.remove('hide');
+				    itemBox[k].classList.add('activese');
+				  }
+				}
+				
+			  })
+			}
+		</script>
+		<script src="app.js"></script>
+	</body>
+</html>
